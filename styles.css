@@ -448,13 +448,16 @@ h3 {
 .support-section {
   padding-top: clamp(4rem, 8vw, 7rem);
 }
+.support-section .section-heading {
+  max-width: 980px;
+}
 .support-map {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: .75rem;
-  max-width: 1040px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: clamp(1.1rem, 2vw, 1.5rem);
   list-style: none;
   border: 1px solid var(--line);
@@ -472,7 +475,7 @@ h3 {
   border-radius: 999px;
   background: rgba(255, 253, 248, .74);
   color: var(--sage-dark);
-  font-weight: 760;
+  font-weight: 620;
   line-height: 1.25;
   box-shadow: 0 10px 28px rgba(56, 48, 38, .06);
 }
