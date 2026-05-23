@@ -312,6 +312,38 @@ h3 {
   aspect-ratio: 1 / 1.08;
 }
 
+.about-section {
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(300px, .92fr);
+  gap: clamp(1.8rem, 4vw, 3.5rem);
+  align-items: start;
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 253, 248, .62);
+  box-shadow: 0 18px 54px rgba(56, 48, 38, .08);
+}
+
+.about-copy {
+  max-width: 680px;
+}
+
+.about-copy p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: clamp(1.03rem, 1.35vw, 1.16rem);
+}
+
+.about-credentials {
+  margin-top: .4rem;
+  padding: clamp(1.15rem, 2vw, 1.45rem);
+  border-radius: var(--radius-lg);
+  background: rgba(244, 237, 223, .56);
+}
+
 .check-list {
   display: grid;
   gap: .75rem;
@@ -555,6 +587,8 @@ h3 {
   .quick-info {
     max-width: none;
   }
+  .about-card { grid-template-columns: 1fr; }
+  .about-copy { max-width: none; }
   .cards-grid { grid-template-columns: 1fr 1fr; }
   .testimonial-grid { grid-template-columns: 1fr 1fr; }
   .approach-principles { grid-template-columns: 1fr; }
@@ -586,7 +620,10 @@ h3 {
     margin-left: 0;
   }
 
-  .split-section { padding: 3.5rem 0; }
+  .split-section,
+  .about-section { padding: 3.5rem 0; }
+  .about-card { padding: 1.1rem; }
+  .about-credentials { padding: 1rem; }
   .approach-principles { grid-template-columns: 1fr; }
   .service-card { min-height: auto; }
   .contact-card { padding: .7rem; }
