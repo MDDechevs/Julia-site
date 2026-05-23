@@ -319,8 +319,7 @@ h3 {
 .about-card {
   display: grid;
   gap: clamp(1.7rem, 3.2vw, 2.7rem);
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: none;
   padding: clamp(1.6rem, 3vw, 2.6rem);
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
@@ -346,7 +345,7 @@ h3 {
 .about-details {
   display: grid;
   gap: clamp(1.35rem, 2.5vw, 2rem);
-  max-width: 880px;
+  max-width: 980px;
   padding-top: .35rem;
 }
 
@@ -373,8 +372,7 @@ h3 {
 .about-details a {
   color: var(--sage-dark);
   font-weight: 760;
-  text-decoration-thickness: .08em;
-  text-underline-offset: .2em;
+  text-decoration: none;
 }
 
 .check-list {
