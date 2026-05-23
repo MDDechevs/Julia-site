@@ -157,6 +157,14 @@ h3 {
   line-height: 1.58;
 }
 
+.hero-text p {
+  margin: 0;
+}
+
+.hero-text p + p {
+  margin-top: .85rem;
+}
+
 .hero-actions,
 .contact-actions {
   display: flex;
