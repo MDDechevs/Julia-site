@@ -127,6 +127,7 @@ a { color: inherit; }
 
 h1, h2, h3 {
   margin: 0;
+  font-family: Literata, Georgia, "Times New Roman", serif;
   line-height: 1.12;
   letter-spacing: -0.045em;
 }
@@ -441,7 +442,7 @@ h3 {
   position: absolute;
   top: .5rem;
   left: 1.15rem;
-  font-family: Manrope, sans-serif;
+  font-family: Literata, Georgia, "Times New Roman", serif;
   font-size: 3.5rem;
   line-height: 1;
   color: rgba(120, 134, 107, .28);
