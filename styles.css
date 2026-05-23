@@ -460,8 +460,8 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background:
-    radial-gradient(circle at 18% 10%, rgba(255, 250, 241, .42), transparent 28rem),
-    linear-gradient(135deg, rgba(120, 134, 107, .22), rgba(76, 91, 71, .14));
+    radial-gradient(circle at 18% 10%, rgba(255, 250, 241, .36), transparent 28rem),
+    linear-gradient(135deg, rgba(120, 134, 107, .32), rgba(76, 91, 71, .2));
 }
 .support-map li {
   display: inline-flex;
