@@ -318,7 +318,9 @@ h3 {
 
 .about-card {
   display: grid;
-  gap: clamp(1.6rem, 3.2vw, 2.6rem);
+  gap: clamp(1.7rem, 3.2vw, 2.7rem);
+  max-width: 980px;
+  margin: 0 auto;
   padding: clamp(1.6rem, 3vw, 2.6rem);
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
@@ -327,12 +329,12 @@ h3 {
 }
 
 .about-copy {
-  max-width: 920px;
+  max-width: 840px;
 }
 
 .about-copy h2 {
-  max-width: 780px;
-  font-size: clamp(2rem, 3.3vw, 3.25rem);
+  max-width: 760px;
+  font-size: clamp(1.95rem, 3vw, 2.85rem);
 }
 
 .about-copy p:not(.eyebrow) {
@@ -343,24 +345,29 @@ h3 {
 
 .about-details {
   display: grid;
-  gap: 1rem;
-  max-width: 940px;
-  padding-top: .2rem;
-  border-top: 1px solid rgba(76, 91, 71, .14);
+  gap: clamp(1.35rem, 2.5vw, 2rem);
+  max-width: 880px;
+  padding-top: .35rem;
+}
+
+.about-block {
+  padding-top: clamp(1.2rem, 2vw, 1.65rem);
+  border-top: 1px solid rgba(76, 91, 71, .16);
 }
 
 .about-details h3 {
-  max-width: 780px;
-  margin-top: 1.1rem;
+  max-width: 760px;
+  margin: 0;
   color: var(--sage-dark);
-  font-size: clamp(1.15rem, 1.55vw, 1.42rem);
+  font-size: clamp(1.12rem, 1.45vw, 1.32rem);
+  line-height: 1.28;
   letter-spacing: -0.025em;
 }
 
 .about-details .check-list {
-  margin-top: .15rem;
-  gap: .75rem;
-  max-width: 880px;
+  margin-top: .9rem;
+  gap: .68rem;
+  max-width: 840px;
 }
 
 .about-details a {
@@ -679,7 +686,8 @@ h3 {
   .about-section { padding: 3.5rem 0; }
   .about-card { padding: 1.1rem; }
   .about-copy h2 { font-size: clamp(1.85rem, 9vw, 2.75rem); }
-  .about-details h3 { margin-top: .8rem; }
+  .about-block { padding-top: 1rem; }
+  .about-details h3 { font-size: clamp(1.08rem, 5.8vw, 1.25rem); }
   .approach-principles { grid-template-columns: 1fr; }
   .service-card { min-height: auto; }
   .contact-card { padding: .7rem; }
