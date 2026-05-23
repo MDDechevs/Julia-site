@@ -318,7 +318,7 @@ h3 {
 
 .about-card {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(300px, .92fr);
+  grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
   gap: clamp(1.8rem, 4vw, 3.5rem);
   align-items: start;
   padding: clamp(1.6rem, 3vw, 2.4rem);
@@ -329,7 +329,13 @@ h3 {
 }
 
 .about-copy {
-  max-width: 680px;
+  max-width: 560px;
+  position: sticky;
+  top: 6rem;
+}
+
+.about-copy h2 {
+  max-width: 620px;
 }
 
 .about-copy p:not(.eyebrow) {
@@ -337,11 +343,33 @@ h3 {
   font-size: clamp(1.03rem, 1.35vw, 1.16rem);
 }
 
-.about-credentials {
-  margin-top: .4rem;
+.about-details {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-panel {
   padding: clamp(1.15rem, 2vw, 1.45rem);
+  border: 1px solid rgba(76, 91, 71, .14);
   border-radius: var(--radius-lg);
   background: rgba(244, 237, 223, .56);
+}
+
+.about-panel h3 {
+  color: var(--sage-dark);
+  font-size: clamp(1.12rem, 1.6vw, 1.38rem);
+  letter-spacing: -0.025em;
+}
+
+.about-panel .check-list {
+  margin-top: 1rem;
+}
+
+.about-panel a {
+  color: var(--sage-dark);
+  font-weight: 760;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .2em;
 }
 
 .check-list {
@@ -652,7 +680,8 @@ h3 {
   .split-section,
   .about-section { padding: 3.5rem 0; }
   .about-card { padding: 1.1rem; }
-  .about-credentials { padding: 1rem; }
+  .about-copy { position: static; }
+  .about-panel { padding: 1rem; }
   .approach-principles { grid-template-columns: 1fr; }
   .service-card { min-height: auto; }
   .contact-card { padding: .7rem; }
