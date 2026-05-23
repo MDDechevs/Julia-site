@@ -127,14 +127,13 @@ a { color: inherit; }
 
 h1, h2, h3 {
   margin: 0;
-  font-family: Literata, Georgia, "Times New Roman", serif;
   line-height: 1.12;
   letter-spacing: -0.045em;
 }
 
 h1 {
   max-width: 760px;
-  font-size: clamp(2.15rem, 4.25vw, 4.05rem);
+  font-size: clamp(1.95rem, 3.75vw, 3.55rem);
   font-weight: 760;
 }
 
@@ -442,7 +441,7 @@ h3 {
   position: absolute;
   top: .5rem;
   left: 1.15rem;
-  font-family: Literata, Georgia, "Times New Roman", serif;
+  font-family: Manrope, sans-serif;
   font-size: 3.5rem;
   line-height: 1;
   color: rgba(120, 134, 107, .28);
@@ -560,7 +559,7 @@ h3 {
   .brand small { display: none; }
   .brand-mark { width: 40px; height: 40px; }
   .section-shell { width: min(100% - 1rem, 1160px); }
-  h1 { font-size: clamp(2.25rem, 12vw, 3.35rem); }
+  h1 { font-size: clamp(2rem, 10.5vw, 3.05rem); }
   .eyebrow { font-size: .94rem; }
   .cards-grid,
   .testimonial-grid { grid-template-columns: 1fr; }
