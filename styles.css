@@ -447,53 +447,46 @@ h3 {
 
 .approach-section {
   margin: clamp(4rem, 8vw, 7rem) 0 0;
+  padding: clamp(4rem, 7vw, 6.5rem) 0;
   background: linear-gradient(135deg, rgba(76, 91, 71, .10), rgba(200, 164, 93, .13));
   border-block: 1px solid var(--line);
 }
-.approach-principles {
-  grid-column: 1 / -1;
+.approach-card {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: .8rem;
-  margin: -.8rem 0 0;
-  padding: 0;
-  list-style: none;
+  grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: start;
 }
-.approach-principles li {
-  padding: 1rem;
-  border-radius: 18px;
-  background: rgba(255, 253, 248, .55);
-  border: 1px solid rgba(76, 91, 71, .14);
+.approach-heading {
+  position: sticky;
+  top: 6rem;
 }
-.approach-principles strong,
-.approach-principles span {
-  display: block;
+.approach-heading h2 {
+  max-width: 650px;
+  font-size: clamp(2rem, 3.2vw, 3.2rem);
 }
-.approach-principles strong {
+.approach-heading p {
+  max-width: 600px;
+  margin-top: 1.2rem;
   color: var(--sage-dark);
-  font-size: 1.02rem;
-  line-height: 1.25;
-}
-.approach-principles span {
-  margin-top: .35rem;
-  color: var(--muted);
-  font-size: .92rem;
-  line-height: 1.45;
-}
-
-.quote-panel {
-  background: var(--sage-dark);
-  color: var(--cream-2);
-  min-height: 320px;
-  display: flex;
-  align-items: center;
-}
-.quote-panel blockquote {
-  margin: 0;
-  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  font-size: clamp(1.08rem, 1.55vw, 1.28rem);
+  line-height: 1.62;
   font-weight: 650;
-  line-height: 1.35;
-  letter-spacing: -0.025em;
+}
+.approach-copy {
+  display: grid;
+  gap: 1rem;
+  max-width: 760px;
+  padding: clamp(1.2rem, 2vw, 1.8rem);
+  border: 1px solid rgba(76, 91, 71, .14);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 253, 248, .52);
+}
+.approach-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.12vw, 1.1rem);
+  line-height: 1.72;
 }
 
 .testimonials-section { padding: clamp(4rem, 8vw, 7rem) 0; }
@@ -651,7 +644,9 @@ h3 {
   .about-details { max-width: none; }
   .cards-grid { grid-template-columns: 1fr 1fr; }
   .testimonial-grid { grid-template-columns: 1fr 1fr; }
-  .approach-principles { grid-template-columns: 1fr; }
+  .approach-card { grid-template-columns: 1fr; }
+  .approach-heading { position: static; }
+  .approach-copy { max-width: none; }
 }
 
 @media (max-width: 640px) {
@@ -686,7 +681,9 @@ h3 {
   .about-copy h2 { font-size: clamp(1.85rem, 9vw, 2.75rem); }
   .about-block { padding-top: 1rem; }
   .about-details h3 { font-size: clamp(1.08rem, 5.8vw, 1.25rem); }
-  .approach-principles { grid-template-columns: 1fr; }
+  .approach-section { padding: 3.5rem 0; }
+  .approach-heading h2 { font-size: clamp(1.85rem, 9vw, 2.75rem); }
+  .approach-copy { padding: 1rem; }
   .service-card { min-height: auto; }
   .contact-card { padding: .7rem; }
   .contact-card > div { padding: .8rem; }
