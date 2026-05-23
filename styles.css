@@ -624,6 +624,12 @@ h3 {
 .external-links a {
   color: var(--sage-dark);
   font-weight: 750;
+  text-decoration: none;
+  transition: font-weight .18s ease, color .18s ease;
+}
+.external-links a:hover {
+  color: var(--charcoal);
+  font-weight: 850;
 }
 
 .map-wrap {
@@ -652,6 +658,26 @@ h3 {
 }
 .site-footer span { display: block; color: rgba(255,255,255,.72); }
 .site-footer a { color: var(--cream-2); font-weight: 750; }
+.footer-contact {
+  display: grid;
+  gap: .48rem;
+  min-width: max-content;
+}
+.footer-contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  text-decoration: none;
+}
+.footer-contact svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: currentColor;
+  opacity: .88;
+}
+.footer-contact span {
+  color: var(--cream-2);
+}
 .footer-social {
   display: flex;
   gap: .65rem;
@@ -753,7 +779,8 @@ h3 {
   .contact-card { padding: .7rem; }
   .contact-card > div { padding: .8rem; }
   .site-footer { flex-direction: column; align-items: flex-start; padding-bottom: 2.2rem; }
-  .footer-social { width: 100%; }
+  .footer-social,
+  .footer-contact { width: 100%; min-width: 0; }
   .mobile-call {
     position: fixed;
     left: 1rem;
