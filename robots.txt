@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mddechevs.github.io/Julia-site/sitemap.xml
+Sitemap: https://juliatodorova.bg/sitemap.xml
