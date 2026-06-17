@@ -13,7 +13,7 @@ Open: http://localhost:5173
 
 ## Deployment
 
-- Live URL: https://juliatodorova.bg/
-- Canonical URL, sitemap, robots, Open Graph, Twitter preview tags, and JSON-LD schema currently point to the GitHub Pages URL.
-- If a custom domain is added later, update `index.html`, `robots.txt`, `sitemap.xml`, and schema URLs to the final domain.
+- Live URL: https://www.juliatodorova.bg/
+- Canonical URL, sitemap, robots, Open Graph, Twitter preview tags, and JSON-LD schema point to the live `www` domain because the apex domain redirects there.
+- If the primary domain changes later, update `index.html`, `robots.txt`, `sitemap.xml`, and schema URLs to the final 200 URL.
 - Confirm final working days/hours and whether weekend appointments should be shown.
