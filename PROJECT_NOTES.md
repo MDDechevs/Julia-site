@@ -5,13 +5,38 @@ Use this file as the quick handoff for future chat sessions. It intentionally ke
 ## Project
 - Local project: `/Users/User/.openclaw/workspace/julia-todorova-site`
 - Type: Bulgarian one-page business-card / landing page for a psychologist in Sofia.
-- Deployment: local only for now; do not deploy before final approval.
+- Deployment: GitHub `origin/main` is connected to the live Vercel site. Do not deploy before final approval.
 - Local preview:
   ```bash
   cd /Users/User/.openclaw/workspace/julia-todorova-site
   python3 -m http.server 5173
   ```
   Open: `http://localhost:5173`
+
+## Blog Publishing Workflow
+These notes are only for this Julia Todorova site. Do not treat them as general rules for other projects.
+
+- Add `Блог` in the main navigation and keep `/blog/` as the article list page.
+- Blog list intro copy currently approved:
+  - H1: `Статии за човешките ни противоречия, за връзките, които ни оформят, и за отношението ни към самите нас.`
+  - Supporting line: `Текстове на Джулия Тодорова`
+- For imported LinkedIn articles, use the LinkedIn original publish date as the original article date and the website publication date as the site date.
+- Show both dates in the article byline:
+  - `Публикувано в LinkedIn: ...`
+  - `Публикувано в сайта: ...`
+- Use the compact author/date row under the article title: small circular `assets/julia-todorova-razkazhimi.jpg`, author name, and both dates.
+- Use the same compact author/date treatment on blog cards.
+- Article pages should be readable, not wall-of-text: clear H2s, short paragraphs, source list, image captions, and a bottom author box.
+- Bottom author box copy currently approved:
+  - `Джулия Тодорова`
+  - `Клиничен психолог и психотерапевт. Работи с възрастни, деца и родители, срещащи трудности в грижата за децата си.`
+- Bottom author image should use `assets/julia-todorova-razkazhimi.jpg` with a crop that does not cut off her head.
+- For article images, place each image near the matching source/argument in the article flow, and include visible caption/source links.
+- For the current Picasso/Cubism article:
+  - Featured image caption: `Пабло Пикасо, „Герника“, 1937. Източник`
+  - Place `Госпожиците от Авиньон` under the paragraph beginning `Кубизмът се характеризира...`
+  - Place `Fruit Dish` under the paragraph beginning `Синтетичният кубизъм...`
+  - Do not keep broken source links. If an academic source blocks direct linking, use plain DOI text instead of a clickable broken link.
 
 ## Source Links / Profiles
 Use these as source material and secondary trust links:
