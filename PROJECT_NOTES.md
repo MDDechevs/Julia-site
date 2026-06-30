@@ -5,7 +5,7 @@ Use this file as the quick handoff for future chat sessions. It intentionally ke
 ## Project
 - Local project: `/Users/User/.openclaw/workspace/julia-todorova-site`
 - Type: Bulgarian one-page business-card / landing page for a psychologist in Sofia.
-- Deployment: GitHub `origin/main` is connected to the live Vercel site. Do not deploy before final approval.
+- Deployment: GitHub `deano/main` (`Deanooooooooo/Julia-site`) is connected to the live Vercel site. `origin/main` (`MDDechevs/Julia-site`) updates GitHub Pages. For live `www.juliatodorova.bg`, push `deano/main` after final approval.
 - Local preview:
   ```bash
   cd /Users/User/.openclaw/workspace/julia-todorova-site
