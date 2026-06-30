@@ -27,6 +27,14 @@ These notes are only for this Julia Todorova site. Do not treat them as general 
 - Use the compact author/date row under the article title: small circular `assets/julia-todorova-razkazhimi.jpg`, author name, and both dates.
 - Use the same compact author/date treatment on blog cards.
 - Article pages should be readable, not wall-of-text: clear H2s, short paragraphs, source list, image captions, and a bottom author box.
+- If generated illustrations are requested for Julia's articles, keep them specific to this site style:
+  - warm cream/ivory, muted sage/olive, deep charcoal, and restrained warm clay accents;
+  - calm psychology/art editorial style, not stock, cartoon, clinical, or decorative;
+  - avoid clearly gendered silhouettes unless the article/client explicitly asks for gender;
+  - if children are shown, avoid making the child's gender clearly recognizable unless requested;
+  - prefer open-to-interpretation illustrations with no visible explanatory captions; keep descriptive `alt` text for accessibility/SEO only;
+  - use 1 featured image plus 1-2 inline images unless Dean/client asks for more;
+  - do not add generated-image process text such as "created for the article" on the page.
 - Bottom author box copy currently approved:
   - `Джулия Тодорова`
   - `Клиничен психолог и психотерапевт. Работи с възрастни, деца и родители, срещащи трудности в грижата за децата си.`
