@@ -42,12 +42,14 @@ These notes are only for this Julia Todorova site. Do not treat them as general 
 Use these as source material and secondary trust links:
 - LinkedIn: `https://www.linkedin.com/in/julia-todorova-a5bbb656?utm_source=share_via&utm_content=profile&utm_medium=member_android`
 - Superdoc: `https://superdoc.bg/lekar/dzhulia-todorova`
+- Google Business Profile: `https://share.google/z9bXEJBtoN6xMTFeZ`
+- Google entity URL: `https://www.google.com/search?kgmid=/g/11z80z098q&hl=bg&q=%D0%94%D0%B6%D1%83%D0%BB%D0%B8%D1%8F+%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B0+-+%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D1%87%D0%B5%D0%BD+%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3+%D0%B8+%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B5%D0%B2%D1%82`
 - RazkazhiMi: `https://razkazhimi.online/providers/a738c4ca-e749-4b33-bb38-5c99cb72d5e8`
 - RazkazhiMi portrait source used during planning: `https://razkazhimi-production.s3.eu-south-2.amazonaws.com/a738c4ca-e749-4b33-bb38-5c99cb72d5e8`
 
 ## Extracted / Agreed Info
 - Name: Джулия Тодорова
-- Role: психолог, психотерапевт
+- Role: клиничен психолог, психотерапевт
 - City: София
 - Address: бул. „Витоша“ 61, София
 - Phone: `0878 194 843` / `+359 878 194 843`
@@ -109,13 +111,13 @@ Primary keyword themes:
 SEO structure to preserve:
 - H1 should balance user trust + SEO, e.g. psychologist in Sofia for anxiety/stress/life difficulties.
 - Local NAP consistency: name, address, phone should match across site/profiles.
-- Include Google Maps/address section.
+- Include Google Maps/address section. When a Google Business Profile exists, use the business/entity map rather than a raw street-address map.
 - Keep structured data/schema, Bulgarian `lang="bg"`, meta title/description, Open Graph, sitemap, robots.
 
 ## Later Local SEO / Google Business Profile
-Potential Google Business Profile setup, but actual submission/verification requires Julia/Dean approval and Google account access.
+Google Business Profile exists as of 2026-06-30. Keep the site name, role, address, phone, and hours aligned with it.
 Suggested GBP content:
-- Business name: `Джулия Тодорова – психолог и психотерапевт`
+- Business name: `Джулия Тодорова - клиничен психолог и психотерапевт`
 - Primary category: `Психолог`
 - Secondary category if available: `Психотерапевт` / `Консултант`
 - Description: focus on individual consultations for anxiety, tension, burnout, life crises, loss, relationship difficulties; adults, parents, teenagers; cabinet at бул. „Витоша“ 61; psychoanalytic psychotherapy, confidentiality, professional ethics.
